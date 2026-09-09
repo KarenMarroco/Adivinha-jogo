@@ -10,6 +10,8 @@ contador = 7
 acertou = False
 
 while contador > 0:
+    print (f'Você tem {contador} tentativas restantes. ')
+    contador -= 1   
     tentativa = int(input('Digite o seu palpite: '))
     if tentativa == numero_secreto:
         print('Parabéns! Você acertou o número secreto!')
