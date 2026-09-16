@@ -1,5 +1,6 @@
 #Jogo adivinha
-##**🎮 Jogo de Adivinhação em Python**
+
+##**🎮 Jogo de Adivinhação em Python**  
 Um jogo de adivinhação simples e divertido desenvolvido em Python, onde o objetivo é adivinhar um número secreto entre 1 e 100 em até 7 tentativas.
 
 ##**📋 Como Funciona**
