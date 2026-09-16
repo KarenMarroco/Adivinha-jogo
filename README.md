@@ -17,18 +17,16 @@ Pré-requisitos
 Certifique-se de ter o Python instalado em sua máquina.
 
 ### Passo a passo
+
 Clone este repositório ou faça o download dos arquivos:
-
-Bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
 Navegue até o diretório do projeto:
-
-Bash
 cd nome-do-repositorio
-Execute o script Python:
 
-Bash
+Execute o script Python:
 python adivinha.py
+
 (Substitua adivinha.py pelo nome real do arquivo principal do seu código, caso seja diferente).
 
 ## **🛠️ Tecnologias Utilizadas**
