@@ -1,32 +1,33 @@
-🎮 Regras do Jogo
-O computador escolhe um número inteiro aleatório entre 1 e 100.
+**🎮 Jogo de Adivinhação em Python**
+Um jogo de adivinhação simples e divertido desenvolvido em Python, onde o objetivo é adivinhar um número secreto entre 1 e 100 em até 7 tentativas.
 
-Você digita o seu palpite.
+📋 Como Funciona
+O computador escolhe aleatoriamente um número inteiro entre 1 e 100.
 
-O jogo dará uma dica:
+O jogador tem 7 oportunidades para tentar adivinhar qual é o número.
 
-📈 "O número secreto é MAIOR!" (se o seu palpite for baixo).
+A cada palpite incorreto, o programa dá uma dica informando se o número secreto é maior ou menor que o palpite dado.
 
-📉 "O número secreto é MENOR!" (se o seu palpite for alto).
+O jogo termina se o jogador acertar (vitória) ou se esgotarem as 7 tentativas (derrota).
 
-Se você acertar dentro das 7 tentativas, você vence! 🏆
+**🚀 Como Executar o Projeto**
+Pré-requisitos
+Certifique-se de ter o Python instalado em sua máquina.
 
-Se as 7 tentativas acabarem sem que você acerte, o jogo revela o número secreto e você perde. 😢
+Passo a passo
+Clone este repositório ou faça o download dos arquivos:
 
-🛠️ Tecnologias Utilizadas
-Python (Linguagem principal)
+Bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Navegue até o diretório do projeto:
 
-Módulo nativo random (para a geração do número aleatório)
+Bash
+cd nome-do-repositorio
+Execute o script Python:
 
-🤝 Contribuindo
-Contribuições são sempre bem-vindas! Se você quiser melhorar este projeto (adicionar níveis de dificuldade, interface gráfica, placar, etc.):
+Bash
+python adivinha.py
+(Substitua adivinha.py pelo nome real do arquivo principal do seu código, caso seja diferente).
 
-Faça um Fork do projeto
-
-Crie uma Branch para sua feature (git checkout -b feature/nova-feature)
-
-Faça o commit das suas alterações (git commit -m 'Adicionando nova feature')
-
-Faça o Push para a Branch (git push origin feature/nova-feature)
-
-Abra um Pull Request
+**🛠️ Tecnologias Utilizadas**
+Python 3.x (Módulo random para a geração do número aleatório)
